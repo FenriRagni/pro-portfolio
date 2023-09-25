@@ -56,19 +56,21 @@ body {
     width: fit-content;
 }
 
+/* centers the main heading inside of the flexbox ul item */
+#main-heading {
+    margin: auto;
+}
+
 /* sets style for secondary headers */
 .secondary-header{
     font-size: 120%;
+    font-weight: bolder;
     background-color: var(--main-color);
     border-radius: 25px;
     padding: 1%;
     width: fit-content;
     margin: 3% auto 3% auto;
     border: 2px solid var(--accent-color)
-}
-/* centers the main heading inside of the flexbox ul item */
-#main-heading {
-    margin: auto;
 }
 
 /* sets profile picture centered */
@@ -131,6 +133,9 @@ body {
     
 }
 
+h3 {
+    font-weight: bold;
+}
 /* hovering over specified elements gives a glowing drop shadow */
 .navigation ul:hover, .content-box:hover .styling, .card:hover 
 {
