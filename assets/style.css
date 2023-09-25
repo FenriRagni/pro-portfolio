@@ -29,6 +29,21 @@ body {
     flex:1;
 }
 
+/* sets styling for navigation links */
+.navigation a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size:120%;
+    color: var(--accent-color);
+    margin: 0 10px;
+}
+
+/* sets styling for navigation header */
+.navigation h1 {
+    font-size: 200%;
+    font-weight: bold;
+    color: var(--accent-color);
+}
 .styling {
     background-color: var(--main-color);
     border-radius: 25px;
@@ -61,54 +76,62 @@ body {
     height: 96px;
 }
 
-/* sets styling for navigation links */
-.navigation a {
-    text-decoration: none;
-    font-weight: 600;
-    font-size:120%;
-    color: var(--accent-color);
-    margin: 0 10px;
-}
-
-/* sets styling for navigation header */
-.navigation h1 {
-    font-size: 200%;
-    font-weight: bold;
-    color: var(--accent-color);
-}
-
 .application-row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.application-column {
+/* .application-column {
     flex-direction: column;
     width: 100%;
     align-content: center;
-}
+} */
 
 .card {
+    display: flex;
+    flex-direction: column;
     border-radius: 25px;
     background-color: var(--main-color);
+    margin:2% auto 2% auto;
+    max-width: 96%;
+    max-height: 20%;
+    padding: 2%;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .card-header {
     text-align: center;
 }
 
-.card-img {
-    max-width: 80%;
-    margin: 0% 10% 0% 10%;
+.card .card-img {
+    margin: 1%;
+    max-height: 300px;
+    max-width: 300px;
 }
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex:none;
+}
+
+#first {
+    flex-grow: 1;
+    width: 100%;
+}
+
+
 #about p {
     background-color: var(--main-color);
     text-wrap: wrap;
     padding: 2%;
+    margin: 2%;
     
 }
 
-.navigation ul:hover, .content-box:hover .styling {
+.navigation ul:hover, .content-box:hover .styling, .card:hover 
+{
     box-shadow: 0px 5px 8px var(--accent-color);
 
 }
@@ -116,9 +139,6 @@ body {
 #profile:hover {
     box-shadow: 0px 0px 10px 5px var(--accent-color);
 }
-/* .styling:hover {
-    box-shadow: 0px 5px 8px var(--accent-color);
-} */
 
 @media screen and (min-width: 768px) {
     /* sets flex box items to row and limits the height of nav bar */
@@ -137,5 +157,14 @@ body {
         max-width: 500px;
         margin-left: auto;
         margin-right: auto;
+    }
+    #first {
+        width:100%;
+        margin: auto;
+    }
+
+    .card-img {
+        max-width: 500px;
+        max-height: 500px;
     }
 }
