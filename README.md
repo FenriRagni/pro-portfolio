@@ -18,6 +18,7 @@ Hovering over a section hightlights it.
 ## Credits 
 Thanks to [Janet/TwixmixyJanet](https://github.com/TwixmixyJanet) for giving the project a once over and pointing out some things I forgot about. Also for the tip abouve WAVE!
 
+[WAVE Tool](https://wave.webaim.org) <br>
 [Github Logo](https://github.com/logos) <br>
 [Twitter Logo](https://www.iconsdb.com/white-icons/twitter-icon.html) <br>
 [e-mail Icon](https://www.iconsdb.com/white-icons/mail-icon.html)
