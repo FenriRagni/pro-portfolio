@@ -9,11 +9,11 @@ The goal of this project is to create a place to show off some of the work I've 
 
 ## Usage
 Clicking on one of the Navigation Links takes you to the corresponding section on the site.
-![Nav-demo](./assets/images/nav-demo.gif) 
+![Nav-demo](./assets/images/nav-demo.gif) <br>
 Clicking on any of the project images takes you to the deployed website. 
-![Link-demo](./assets/images/application-links.gif) 
+![Link-demo](./assets/images/application-links.gif) <br>
 Hovering over a section hightlights it.
-![Glow-demo](./assets/images/glow-demo.gif) 
+![Glow-demo](./assets/images/glow-demo.gif) <br>
 
 ## Credits 
 Thanks to [Janet/TwixmixyJanet](https://github.com/TwixmixyJanet) for giving the project a once over and pointing out some things I forgot about. Also for the tip abouve WAVE!
