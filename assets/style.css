@@ -121,7 +121,7 @@ body {
 
 /* sets size first application card to take up the full size of the container */
 #first {
-    width: 100%;
+    width: 70%;
 }
 
 /* sets style for paragraph in about me section */
@@ -189,7 +189,7 @@ h3 {
     }
     /* adjust first app card margins */
     #first {
-        width:100%;
+        width:90%;
         margin: auto;
     }
 
